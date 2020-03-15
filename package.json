@@ -12,7 +12,7 @@
   "author": "anasrezk <anas.rezk.js@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:AnasRezk/event-tracking-browser.git"
   },
   "license": "MIT",
   "engines": {
