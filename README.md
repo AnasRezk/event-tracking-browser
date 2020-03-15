@@ -1,9 +1,9 @@
 # Event Tracking Browser
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Greenkeeper badge](https://badges.greenkeeper.io/anasrezk/event-tracking-browser.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/AnasRezk/event-tracking-browser/badge.svg?targetFile=package.json)](https://snyk.io/test/github/AnasRezk/event-tracking-browser?targetFile=package.json)
 [![Travis](https://img.shields.io/travis/anasrezk/event-tracking-browser.svg)](https://travis-ci.org/github/AnasRezk/event-tracking-browser)
-[![Coveralls](https://img.shields.io/coveralls/anasrezk/event-tracking-browser.svg)](https://coveralls.io/github/AnasRezk/event-tracking-browser)
+[![Coverage Status](https://coveralls.io/repos/github/AnasRezk/event-tracking-browser/badge.svg?branch=master)](https://coveralls.io/github/AnasRezk/event-tracking-browser?branch=master)
 [![Dev Dependencies](https://david-dm.org/anasrezk/event-tracking-browser/dev-status.svg)](https://david-dm.org/AnasRezk/event-tracking-browser?type=dev)
 
 A project for tracking ptoject.
