@@ -9,7 +9,7 @@ test('register gloabl props', () => {
 });
 
 test('track event', () => {
-    expect(track('Login', null)).toBe({ eventName: 'Login', properties: null });
+    expect(track('Login', null)).toStrictEqual({ eventName: 'Login', properties: null });
 });
 
 test('init tracker', () => {

@@ -8,7 +8,7 @@ interface EventTrackerOptions {}
  * @param config A dictionary of config options to override default config.
  * @returns distinctId.
  */
-const init = async (token: string, config?: EventTrackerOptions) => {
+const init = (token: string, config?: EventTrackerOptions) => {
     return token;
 };
 
