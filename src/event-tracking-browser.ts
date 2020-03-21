@@ -9,13 +9,7 @@ interface EventTrackerOptions {}
  * @returns distinctId.
  */
 const init = async (token: string, config?: EventTrackerOptions) => {
-    try {
-        const response = await axios.get(`/api/init?token=${token}`);
-        let { data } = response.data;
-        return data;
-    } catch (error) {
-        throw error;
-    }
+    return token;
 };
 
 /**
