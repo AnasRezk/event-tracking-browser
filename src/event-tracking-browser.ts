@@ -25,19 +25,25 @@ const init = async (token: string, config?: EventTrackerOptions) => {
  * @returns If the tracking request was successfully initiated/queued,
  * an object with the tracking payload sent to the API server is returned; otherwise false.
  */
-const track = (eventName: string, properties: any) => {};
+const track = (eventName: string, properties: any) => {
+    return { eventName, properties };
+};
 
 /**
  * Register a set of super properties, which are included with all events.
  * @param properties  An associative array of properties to store about the user
  */
-const register = (properties: any) => {};
+const register = (properties: any) => {
+    return properties;
+};
 
 /**
  * Identify a user with a unique ID to track user activity across devices, tie a user to their events, and create a user profile. If you never call this method, unique visitors are tracked using a UUID generated the first time they visit the site.
  * @param uniqueId A string that uniquely identifies a user.
  * If not provided, the distinctId currently in the persistent store (cookie or localStorage) will be used.
  */
-const identify = (uniqueId?: string) => {};
+const identify = (uniqueId?: string) => {
+    return uniqueId;
+};
 
 export { init, track, register, identify };
