@@ -1,6 +1,10 @@
-import axios from 'axios';
 
-interface EventTrackerOptions {}
+interface EventTrackerOptions {
+    /**
+     * if cookie name have value, will use it otherwise we use our name
+     */
+    cookieName?: string;
+}
 
 /**
  * This function initializes a new instance of the tracking object
