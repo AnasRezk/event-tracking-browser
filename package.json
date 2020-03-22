@@ -1,6 +1,6 @@
 {
   "name": "event-tracking-browser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "main": "dist/event-tracking-browser.umd.js",
