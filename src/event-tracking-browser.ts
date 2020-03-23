@@ -1,9 +1,14 @@
-
 interface EventTrackerOptions {
     /**
      * if cookie name have value, will use it otherwise we use our name
      */
     cookieName?: string;
+
+    /**
+     * if true will log any action to the browser console.
+     * @default false
+     */
+    debug?: boolean;
 }
 
 /**
