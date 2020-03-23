@@ -11,9 +11,11 @@ A project for tracking ptoject.
 ## Usage
 
 ```bash
-git clone https://github.com/anasrezk/event-tracking-browser.git
+yarn add event-tracking-browser
 
-yarn
+or
+
+npm install event-tracking-browser
 ```
 
 ### Features
@@ -25,12 +27,6 @@ yarn
 -   Automatic types `(*.d.ts)` file generation
 -   **[Travis](https://travis-ci.org)** integration and **[Coveralls](https://coveralls.io/)** report
 -   (Optional) **Automatic releases and changelog**, using [Semantic release](https://github.com/semantic-release/semantic-release), [Commitizen](https://github.com/commitizen/cz-cli), [Conventional changelog](https://github.com/conventional-changelog/conventional-changelog) and [Husky](https://github.com/typicode/husky) (for the git hooks)
-
-### Importing library
-
-```javascript
-import EventTracker from 'event-tracking-browser';
-```
 
 ### NPM scripts
 
